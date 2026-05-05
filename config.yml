@@ -6,7 +6,7 @@ categories:
         # todo: inf: contains useless domains, investigate/filter & optimize
       # - url: https://iplist.opencck.org/?format=text&data=domains&site=discord.com&site=discord.gg&site=discord.media
       # cidr
-      - url: https://github.com/itdoginfo/allow-domains/blob/main/Subnets/IPv4/Discord.lst
+      - url: https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Subnets/IPv4/Discord.lst
       - url: https://iplist.opencck.org/?format=text&data=cidr4&site=discord.com&site=discord.gg&site=discord.media
       - url: https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Subnets/IPv6/Discord.lst
       - url: https://iplist.opencck.org/?format=text&data=cidr6&site=discord.com&site=discord.gg&site=discord.media
@@ -18,7 +18,7 @@ categories:
       # - url: https://iplist.opencck.org/?format=text&data=domains&site=telegram.org
       # cidr
       - url: https://core.telegram.org/resources/cidr.txt
-      - url: https://github.com/itdoginfo/allow-domains/blob/main/Subnets/IPv4/telegram.lst
+      - url: https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Subnets/IPv4/telegram.lst
       - url: https://iplist.opencck.org/?format=text&data=cidr4&site=telegram.org
       - url: https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Subnets/IPv6/telegram.lst
       - url: https://iplist.opencck.org/?format=text&data=cidr6&site=telegram.org
