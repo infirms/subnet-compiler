@@ -1,4 +1,4 @@
-name: Push to Codeberg proclub-scoop mirror
+name: Push to the Codeberg mirror
 
 on:
   push:
@@ -21,7 +21,7 @@ jobs:
           # Fetches full history so the push to Codeberg is seamless
           fetch-depth: 0
 
-      - name: Push Commits to Codeberg
+      - name: Push Commits to the Codeberg
         run: |
           mkdir -p ~/.ssh
           ssh-keyscan codeberg.org >> ~/.ssh/known_hosts
